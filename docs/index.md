@@ -89,7 +89,9 @@ Enterprise-ready Azure infrastructure provisioning using Terraform (IaC best pra
       Complete architecture, repository structure and usage guide for
       Terraform-based Azure infrastructure.
     </p>
-    <a href="../README.md">View Documentation →</a>
+   <a href="https://github.com/raj-jha-devops/terraform-azure-infra/blob/main/README.md">
+  View Documentation →
+</a>
   </div>
 
   <div class="card">
@@ -137,3 +139,36 @@ Enterprise-ready Azure infrastructure provisioning using Terraform (IaC best pra
   </div>
 
 </div>
+
+---
+
+## 👨‍💻 Author
+
+### Raj Jha
+
+DevOps Engineer | Cloud Engineer | Azure | Terraform | CI/CD | Cloud Automation
+
+**Tech Stack:**  
+Azure · Terraform · GitHub Actions · Azure DevOps · IaC · CI/CD
+
+🔗 LinkedIn: https://www.linkedin.com/in/raj-jha-0990b4317  
+🐙 GitHub: https://github.com/raj-jha-devops
+
+---
+
+## 📦 Featured Repositories
+
+- ⭐ **terraform-azure-infra**  
+  Azure Infrastructure provisioning using Terraform (IaC)
+
+- ⭐ **terraform-azurerm-vm**  
+  Reusable Terraform module for Azure Virtual Machines
+
+⭐ If you find this project helpful, please star the repositories!
+
+---
+
+<p style="text-align:center; opacity:0.7;">
+© 2026 Raj Jha · Built with Terraform & GitHub Pages
+</p>
+
