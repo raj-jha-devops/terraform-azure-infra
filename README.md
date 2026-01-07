@@ -1,22 +1,19 @@
-# terraform-azure-infra
+## 👨‍💻 Raj Jha
 
-Terraform code to provision Azure infrastructure using Infrastructure as Code (IaC) principles.
+**DevOps Engineer | Cloud Engineer | Azure | Terraform | CI/CD**
 
-## Overview
-This repository demonstrates how to use Terraform to provision and manage Azure infrastructure following best practices.
+🔹 Azure | Terraform | GitHub Actions | Azure DevOps  
+🔹 Infrastructure as Code | Cloud Automation  
 
-## Resources Created
-- Azure Resource Group
+---
 
-## Tools & Technologies
-- Terraform
-- Microsoft Azure
-- Infrastructure as Code (IaC)
+### 🚀 Featured Projects
 
-## Usage
+- 🔥 [terraform-azure-infra](https://github.com/raj-jha-devops/terraform-azure-infra)  
+  Enterprise-ready Azure infrastructure using Terraform  
 
-```bash
-terraform init
-terraform plan
-terraform apply
+- ⭐ [terraform-azurerm-vm](https://github.com/raj-jha-devops/terraform-azurerm-vm)  
+  Reusable Terraform VM module  
 
+🌐 **Live Project Page:**  
+👉 https://raj-jha-devops.github.io/terraform-azure-infra/
