@@ -9,16 +9,16 @@
 
 ---
 
-## 📌 Overview
+## 🌐 Overview
 
-This project demonstrates how to provision **Microsoft Azure infrastructure** using **Terraform** following **Infrastructure as Code (IaC)** and **DevOps best practices**.
+This project demonstrates how to provision **Microsoft Azure infrastructure** using **Terraform**, following **Infrastructure as Code (IaC)** and **DevOps best practices**.
 
 It is designed to be:
 
-- Modular  
-- Reusable  
-- CI/CD friendly  
-- Production ready  
+- ✅ Modular
+- ✅ Reusable
+- ✅ CI/CD friendly
+- ✅ Production ready
 
 ---
 
@@ -32,25 +32,21 @@ It is designed to be:
 
 ---
 
-## 🏗 Architecture
+## 🏗️ Architecture
 
 ```text
 Azure Subscription
-|
+│
 ├── Resource Group
-|   ├── Azure Resources (Future ready)
-|   |   ├── Virtual Network (optional)
-|   |   ├── Subnets
-|   |   ├── Storage Account
-|   |   └── Compute / Services
-|
+│   ├── Virtual Network (optional)
+│   ├── Subnets
+│   ├── Storage Account
+│   └── Compute / Services
+│
 └── Terraform State Management
     └── Remote backend (recommended for production)
 
-
-## 📁 Repository Structure
-
-```text
+📁 Repository Structure
 terraform-azure-infra/
 ├── docs/
 │   └── index.md        # GitHub Pages documentation
@@ -62,16 +58,12 @@ terraform-azure-infra/
 ├── .gitignore
 └── LICENSE
 
-
-## 🚀 Usage
-
-### Step 1: Clone the repository
+🚀 Usage
+Step 1: Clone the repository
 
 git clone https://github.com/raj-jha-devops/terraform-azure-infra.git
 cd terraform-azure-infra
 terraform init
 terraform plan
 terraform apply
-
-
 
