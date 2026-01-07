@@ -1,69 +1,113 @@
-# 🚀 Terraform Azure Infrastructure
-
-**Enterprise-ready Azure infrastructure provisioning using Terraform (IaC best practices)**
-
-![Status](https://img.shields.io/badge/status-production--ready-brightgreen)
-![Terraform](https://img.shields.io/badge/terraform-v1.5+-blueviolet)
-![Azure](https://img.shields.io/badge/cloud-Azure-blue)
-![License](https://img.shields.io/badge/license-Apache--2.0-green)
-
+---
+title: Terraform Azure Infrastructure
 ---
 
-## 🌐 Overview
+<style>
+body {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
 
-This project demonstrates how to provision **Microsoft Azure infrastructure** using **Terraform**, following **Infrastructure as Code (IaC)** and **DevOps best practices**.
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
 
-It is designed to be:
+h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
 
-- ✅ Modular
-- ✅ Reusable
-- ✅ CI/CD friendly
-- ✅ Production ready
+.subtitle {
+  font-size: 18px;
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
 
----
+.badges img {
+  margin: 5px;
+}
 
-## ✨ Features
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+  margin-top: 50px;
+}
 
-- ✅ Azure Resource Group provisioning  
-- ✅ Modular Terraform structure  
-- ✅ Provider & variable abstraction  
-- ✅ Environment-ready (dev / prod friendly)  
-- ✅ Ready for CI/CD pipelines  
+.card {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
 
----
+.card h2 {
+  margin-bottom: 10px;
+}
 
-## 🏗️ Architecture
+.card p {
+  font-size: 15px;
+  opacity: 0.95;
+}
 
-```text
-Azure Subscription
-│
-├── Resource Group
-│   ├── Virtual Network (optional)
-│   ├── Subnets
-│   ├── Storage Account
-│   └── Compute / Services
-│
-└── Terraform State Management
-    └── Remote backend (recommended for production)
+.card a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 22px;
+  background: #22c55e;
+  color: #000;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
 
-📁 Repository Structure
-terraform-azure-infra/
-├── docs/
-│   └── index.md        # GitHub Pages documentation
-├── main.tf             # Core Azure resources
-├── providers.tf        # Azure provider configuration
-├── variables.tf        # Input variables
-├── outputs.tf          # Output values
-├── README.md           # Project overview
-├── .gitignore
-└── LICENSE
+<div class="container">
 
-🚀 Usage
-Step 1: Clone the repository
+<h1>🚀 Terraform Azure Infrastructure</h1>
 
-git clone https://github.com/raj-jha-devops/terraform-azure-infra.git
-cd terraform-azure-infra
-terraform init
-terraform plan
-terraform apply
+<p class="subtitle">
+Enterprise-ready Azure infrastructure provisioning using Terraform (IaC best practices)
+</p>
 
+<div class="badges">
+  <img src="https://img.shields.io/badge/status-production--ready-brightgreen" />
+  <img src="https://img.shields.io/badge/terraform-v1.5+-blueviolet" />
+  <img src="https://img.shields.io/badge/cloud-Azure-blue" />
+  <img src="https://img.shields.io/badge/license-Apache--2.0-green" />
+</div>
+
+<div class="cards">
+
+  <div class="card">
+    <h2>📘 Project Documentation</h2>
+    <p>
+      Complete architecture, repository structure and usage guide for
+      Terraform-based Azure infrastructure.
+    </p>
+    <a href="../README.md">View Documentation →</a>
+  </div>
+
+  <div class="card">
+    <h2>⚙️ Terraform Code</h2>
+    <p>
+      Modular, production-ready Terraform code following DevOps and IaC best practices.
+    </p>
+    <a href="https://github.com/raj-jha-devops/terraform-azure-infra">View Repository →</a>
+  </div>
+
+  <div class="card">
+    <h2>🧑‍💻 DevOps Portfolio</h2>
+    <p>
+      Explore my DevOps projects, Terraform, Azure, CI/CD and cloud automation work.
+    </p>
+    <a href="https://github.com/raj-jha-devops">Visit GitHub Profile →</a>
+  </div>
+
+</div>
+
+</div>
