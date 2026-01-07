@@ -111,3 +111,29 @@ Enterprise-ready Azure infrastructure provisioning using Terraform (IaC best pra
 </div>
 
 </div>
+
+<hr>
+
+<h2>🧰 DevOps Tooling</h2>
+
+<div class="cards">
+
+  <div class="card">
+    <h2>Terraform</h2>
+    <p>Infrastructure as Code using modular, reusable Terraform modules.</p>
+    <a href="https://www.terraform.io/" target="_blank">Learn More →</a>
+  </div>
+
+  <div class="card">
+    <h2>Microsoft Azure</h2>
+    <p>Cloud infrastructure provisioning on Azure following best practices.</p>
+    <a href="https://azure.microsoft.com/" target="_blank">Learn More →</a>
+  </div>
+
+  <div class="card">
+    <h2>CI/CD</h2>
+    <p>Ready for GitHub Actions, Azure DevOps pipelines and automation.</p>
+    <a href="#">View Pipelines →</a>
+  </div>
+
+</div>
